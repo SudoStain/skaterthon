@@ -32,7 +32,7 @@ const TopNav = () => {
   const logout = async () => {
     dispatch({ type: "LOGOUT" });
     window.localStorage.removeItem("user");
-    const { data } = await axios.get("/api/logout");
+    const { data } = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/logout`);
     toast(data.message);
     router.push("/login");
   };

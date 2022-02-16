@@ -45,7 +45,7 @@ const BecomeInstructor = () => {
               <br />
               <h2>Setup payout to publish courses on Edemy</h2>
               <p className="lead text-warning">
-               Skater partners with stripe to transfer earnings to your bank
+               Skaterthon partners with stripe to transfer earnings to your bank
                 account
               </p>
 
